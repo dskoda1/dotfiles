@@ -2,7 +2,7 @@ set -o noclobber
 set -o ignoreeof
 
 alias vrc='vim ~/.vimrc'
-
+alias py='python3'
 #Aliases
 #text editor ones
 alias vi="vim"
