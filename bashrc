@@ -19,7 +19,11 @@ alias mc="make clean"
 alias p="plink"
 
 #General commands
-alias ls="ls --color=auto -F"
+
+case "$OSTYPE" in
+  darwin*) alias ls="ls -FHG" ;;
+  *)       alias ls="ls --color=auto -F" ;;
+esac
 
 alias clear="clear && printf '\033[3J'"
 alias psme='ps -u dskoda'
