@@ -26,6 +26,9 @@ alias psme='ps -u dskoda'
 
 alias tmux="tmux -2"
 
+alias pyclean="rm *.pyc"
+alias logcl="rm *.log"
+
 # get current branch in git repo
 function parse_git_branch() {
 	BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
@@ -76,6 +79,8 @@ function parse_git_dirty {
 # For formatting of shell
 export PS1="\u@\T\`parse_git_branch\` \w 
  >> "
+
+
 
 clear
 
