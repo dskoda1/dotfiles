@@ -81,5 +81,13 @@ function parse_git_dirty {
 export PS1="\u@\T\`parse_git_branch\` \w 
  >> "
 
+alias activate='source path.sh && source lib-sord-py/bin/activate'
+alias deactivate='deactivate'
+alias local="export SORD_ENV=local"
+alias dev="export SORD_ENV=dev"
+alias test="export SORD_ENV=test"
+alias beta="export SORD_ENV=beta"
+alias prod="export SORD_ENV=prod"
+
 clear
 
