@@ -26,7 +26,7 @@ set tabstop=4
 set expandtab
 
 " use last indent on next line
-set autoindent 
+set autoindent
 set shiftwidth=4  "this is the level of autoindent, adjust to taste
 set ruler
 set number

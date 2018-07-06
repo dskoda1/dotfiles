@@ -16,7 +16,6 @@ alias gtst="git status"
 #make ones
 alias m="make"
 alias mc="make clean"
-alias p="plink"
 
 #General commands
 
