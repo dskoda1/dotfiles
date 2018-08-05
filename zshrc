@@ -102,3 +102,17 @@ export WINDOWS_USER="David"
 export WINDOWS_HOME="/mnt/c/Users/$WINDOWS_USER"
 export WINDOWS_DEV="$WINDOWS_HOME/Documents/dev/"
 alias dev="cd $WINDOWS_DEV"
+alias todo="cd /mnt/c/Users/David/Documents/dev/js/todo-list && yarn start"
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# GoLang
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOPATH/bin
+
+
