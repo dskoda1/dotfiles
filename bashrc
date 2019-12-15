@@ -12,6 +12,7 @@ alias add="git add -A; git status"
 alias push="git push origin master"
 alias pull="git pull origin master"
 alias gtst="git status"
+alias lg="$ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 #make ones
 alias m="make"
@@ -82,14 +83,6 @@ function parse_git_dirty {
 # For formatting of shell
 export PS1="\u@\T\`parse_git_branch\` \w 
  >> "
-
-alias activate='source path.sh && source lib-sord-py/bin/activate'
-alias deactivate='deactivate'
-alias local="export SORD_ENV=local"
-alias dev="export SORD_ENV=dev"
-alias test="export SORD_ENV=test"
-alias beta="export SORD_ENV=beta"
-alias prod="export SORD_ENV=prod"
 
 clear
 
