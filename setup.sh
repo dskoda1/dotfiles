@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 mkdir -p ~/.vim
-cp -r ~/dotfiles/colors ~/.vim/
+cp -r colors ~/.vim/
 cp bashrc ~/.bashrc
 cp zshrc ~/.zshrc
 cp vimrc ~/.vimrc
